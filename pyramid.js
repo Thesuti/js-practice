@@ -1,15 +1,16 @@
 function triangle(number){
 for (let i = 0; i <= number; i++) {
         let re = "";
-        for (let j = number; j > i; j--) {
+        for (let j = i; j < number; j++) {
             re+=" ";
         }
-        for (let j = 0; j < i; j++) {
+        for (let j = 1; j < i*2; j++) {
             re+="*";
         }
         
         console.log(re);
     }
+    
 }
 
-triangle(4);
+triangle(5);
