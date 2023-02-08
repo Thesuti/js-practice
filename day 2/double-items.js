@@ -4,3 +4,5 @@ for (let i = 0; i < drinks.length; i++) {
 }
 
 console.log(drinks);
+
+module.exports
