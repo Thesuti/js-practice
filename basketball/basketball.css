@@ -1,0 +1,55 @@
+body {
+    width: 300px;
+    height: 1000px;
+    border: 3px;
+}
+
+
+.container {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    background-color: #2B3467;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: red;
+    border: 10px;
+
+}
+
+.guest {
+    color: white;
+    text-align: center;
+    background-color: #2B3467;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.guest-el {
+    background-color: black;
+    color: #EB455F;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.home-el {
+    background-color: black;
+    color: #EB455F;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #2B3467;
+    margin-left: 50px;
+}
