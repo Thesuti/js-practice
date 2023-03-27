@@ -1,0 +1,17 @@
+body{
+    background-color: orange;
+    color: aliceblue;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 20px;
+    color: aliceblue;
+    border-color: aliceblue;
+}
